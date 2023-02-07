@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { useNavigate } from "react-router-dom";
+import { FormControl, FormLabel, Button, Box}from '@chakra-ui/react'
+import { useNavigate  } from "react-router-dom";
 
 function InterFace() {
 
@@ -12,15 +12,15 @@ function InterFace() {
        
     }
   return (
-    <div className='main'>
+    <FormControl className='main' display={'flex'} gap={10}>
 
-        <h3 className='text'>مالحد منة، الله اللي عزنا</h3>
-        <div className='btn'>
-        <button onClick={LogIn}>تسجيل دخول</button>
-        <button> تسجيل جديد</button>
-        </div>
+        <FormLabel className='text'>مالحد منة، الله اللي عزنا</FormLabel>
+        <Box className='btn'>
+        <Button onClick={LogIn}>تسجيل دخول</Button>
+        <Button> تسجيل جديد</Button>
+        </Box>
       
-    </div>
+    </FormControl>
   )
 }
 

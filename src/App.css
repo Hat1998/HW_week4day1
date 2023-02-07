@@ -1,8 +1,9 @@
 
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;1000&family=Reem+Kufi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-/* font End */
+
 /* font End */
 /*/
 *{
@@ -10,6 +11,7 @@
 }
 
 /**/
+ 
 .text{
   font-family: 'Cairo', sans-serif;
 font-family: 'Reem Kufi', sans-serif;
@@ -20,9 +22,8 @@ font-family: 'Reem Kufi', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
-  height: 100vh;
+  height: 57vh;
 
 }
 
@@ -32,17 +33,21 @@ font-family: 'Reem Kufi', sans-serif;
  
 }
 .btn button{
-  background-color: crimson;
+  background-color: #276749;
   padding: 4px;
   border: none;
   cursor: pointer;
+  color: #f6f1f1;
+}
+
+.btn button:hover{
+ color:#276749 ;
 }
 
 
 /* logIn-form */
 .logIn-form{
-  border: 1px solid black;
-  height: 100vh;
+   height: 57vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,13 +60,20 @@ font-family: 'Reem Kufi', sans-serif;
   padding: 50px;
 }
 .logIn-fieldset button{
-  background-color: crimson;
+  background-color: #276749;
   border: none;
+  color: #f6f1f1;
+}
+
+.logIn-fieldset button:hover{
+  color: #276749;
+
 }
 
 /* grid */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+ 
+
 
 :root {
   --PrimaryFontFamily: "Poppins", sans-serif;
@@ -74,9 +86,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: var(--BackgroundColor);
-  height: 100vh;
-  padding: 40px;
-  font-family: var(--PrimaryFontFamily);
+   font-family: var(--PrimaryFontFamily);
 }
 
 .sub {
